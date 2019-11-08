@@ -1,0 +1,74 @@
+# Level 1
+# faces pictures
+
+START_LEVEL
+level_name:faces pictures
+ball_velocities:30,420
+background:image(resources/background_images/wall.jpg)
+paddle_speed:550
+paddle_width:300
+block_definitions:resources/definitions/faces_block_definitions.txt
+blocks_start_x:50
+blocks_start_y:45
+row_height:150
+num_blocks:9
+START_BLOCKS
+P-Q-R
+S-T-U
+V-W-X
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# iPhone Apps
+
+START_LEVEL
+level_name:iPhone Apps
+ball_velocities:30,600 20,600 10,600
+background:image(resources/background_images/iphone_bg.jpg)
+paddle_speed:650
+paddle_width:220
+block_definitions:resources/definitions/iphone_block_definitions.txt
+blocks_start_x:88
+blocks_start_y:100
+row_height:50
+num_blocks:15
+START_BLOCKS
+====A==B==C==D
+===E==F==G==H
+==I==J==K==L
+=M==N==O
+END_BLOCKS
+END_LEVEL
+
+
+# Level 3
+# accessories
+
+START_LEVEL
+level_name:Accessories Drop
+ball_velocities:30,600 -20,600 10,600
+background:image(resources/background_images/beach.jpg)
+paddle_speed:650
+paddle_width:420
+block_definitions:resources/definitions/accessories_block_definitions.txt
+blocks_start_x:10
+blocks_start_y:40
+row_height:25
+num_blocks:4
+START_BLOCKS
+---l-r
+-
+-
+-
+-
+-
+-----s
+-
+-
+-
+-
+-----m
+END_BLOCKS
+END_LEVEL

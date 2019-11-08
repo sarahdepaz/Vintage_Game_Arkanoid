@@ -1,0 +1,22 @@
+# default values for blocks
+default height:38 width:38 hit_points:1 stroke:color(null)
+
+# block definitions
+bdef symbol:A fill:image(resources/block_images/1.png) 
+bdef symbol:B fill:image(resources/block_images/2.png) 
+bdef symbol:C fill:image(resources/block_images/3.png) 
+bdef symbol:D fill:image(resources/block_images/4.png) 
+bdef symbol:E fill:image(resources/block_images/5.png) 
+bdef symbol:F fill:image(resources/block_images/6.png) 
+bdef symbol:G fill:image(resources/block_images/7.png) 
+bdef symbol:H fill:image(resources/block_images/8.png) 
+bdef symbol:I fill:image(resources/block_images/9.png) 
+bdef symbol:J fill:image(resources/block_images/10.png) 
+bdef symbol:K fill:image(resources/block_images/11.png) 
+bdef symbol:L fill:image(resources/block_images/12.png) 
+bdef symbol:M fill:image(resources/block_images/13.png) 
+bdef symbol:N fill:image(resources/block_images/14.png) 
+bdef symbol:O fill:image(resources/block_images/15.png) 
+
+# spacers definitions
+sdef symbol:= width:3

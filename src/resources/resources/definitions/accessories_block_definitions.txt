@@ -1,0 +1,11 @@
+# default values for blocks
+default hit_points:10 stroke:color(null)
+
+# block definitions
+bdef symbol:m height:87 width:297 fill:image(resources/block_images/mustache.png)
+bdef symbol:s height:114 width:297 fill:image(resources/block_images/sunglasses.png)
+bdef symbol:l height:309 width:221 fill:image(resources/block_images/headphones_l.png)
+bdef symbol:r height:318 width:231 fill:image(resources/block_images/headphones_r.png)
+
+# spacers definitions
+sdef symbol:- width:50
